@@ -1,0 +1,42 @@
+I'm OK.
+UNIGRAM MODEL
+
+UNIGRAM: i
+ENGLISH: P(i) = 0.06878195564084601 ==> log prob of sentence so far: -1.162525480273911
+FRENCH: P(i) = 0.07324762664504765 ==> log prob of sentence so far: -1.1352064426688435
+OTHER: P(i) = 0.09599085364207152 ==> log prob of sentence so far: -1.0177701461480908
+
+UNIGRAM: m
+ENGLISH: P(m) = 0.024484402880432 ==> log prob of sentence so far: -2.773635963257047
+FRENCH: P(m) = 0.030693851997282237 ==> log prob of sentence so far: -2.6481550480073937
+OTHER: P(m) = 0.02699784950417624 ==> log prob of sentence so far: -2.5864409740507757
+
+UNIGRAM: o
+ENGLISH: P(o) = 0.0728142263354678 ==> log prob of sentence so far: -3.911419723842542
+FRENCH: P(o) = 0.05316877687650476 ==> log prob of sentence so far: -3.9224983783250487
+OTHER: P(o) = 0.08676132736681454 ==> log prob of sentence so far: -3.64811478636015
+
+UNIGRAM: k
+ENGLISH: P(k) = 0.008458684886711152 ==> log prob of sentence so far: -5.984116877451461
+FRENCH: P(k) = 2.9067377170496396E-4 ==> log prob of sentence so far: -7.459092532374023
+OTHER: P(k) = 1.2475252016292356E-4 ==> log prob of sentence so far: -7.552065458663552
+
+According to the unigram model, the sentence is in English
+--------------------------------------------------------------------------------------------
+BIGRAM: im
+ENGLISH: P(m|i) = 0.04490059189558355 ==> log prob of sentence so far: -1.3477479339345058
+FRENCH: P(m|i) = 0.02887436255882179 ==> log prob of sentence so far: -1.5394875946406474
+OTHER: P(m|i) = 0.04651568336258494 ==> log prob of sentence so far: -1.3324005944335373
+
+BIGRAM: mo
+ENGLISH: P(o|m) = 0.13657673784256064 ==> log prob of sentence so far: -2.212371198622074
+FRENCH: P(o|m) = 0.15328792860497886 ==> log prob of sentence so far: -2.3539796390469743
+OTHER: P(o|m) = 0.14177463211772232 ==> log prob of sentence so far: -2.180802065398093
+
+BIGRAM: ok
+ENGLISH: P(k|o) = 0.014171636655579769 ==> log prob of sentence so far: -4.060951189627856
+FRENCH: P(k|o) = 3.9327366422565774E-4 ==> log prob of sentence so far: -5.759284774418116
+OTHER: P(k|o) = 4.3565391652870956E-5 ==> log prob of sentence so far: -6.541660442703057
+
+According to the bigram model, the sentence is in English
+--------------------------------------------------------------------------------------------
